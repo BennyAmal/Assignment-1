@@ -1,4 +1,4 @@
-
+print("this is a program to count the uppercase and lower case letters in a given string")
 def lettercount(s):    #Defining funtion
     a = 0
     b = 0
@@ -14,3 +14,5 @@ def lettercount(s):    #Defining funtion
 
 s =input("enter your string ")
 lettercount(s)    #invoking funtion
+print("CODED BY AMAL BENNY")
+
