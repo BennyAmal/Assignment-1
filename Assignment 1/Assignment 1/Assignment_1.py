@@ -3,10 +3,10 @@ def lettercount(s):                                   #Defining funtion
     a = 0
     b = 0
     
-    for letter in s:
-        if letter.isupper():  
+    for char in s:
+        if char.isupper():  
             a=a+1
-        elif letter.islower():
+        elif char.islower():
             b=b+1
     
     print("Number of uppercase letters:", a)
